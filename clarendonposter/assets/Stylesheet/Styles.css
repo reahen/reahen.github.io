@@ -5,6 +5,14 @@ font-style: normal;
 background-color: rgb(245, 241, 210);
 }
 h1 {
+    color: rgb(97, 75, 56);
+    text-align: left;
+    font-family: clarendon-text-pro,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 300%;
+}
+h2 {
     color: rgb(132, 163, 100);
     text-align: left;
     font-family: clarendon-text-pro,serif;
@@ -12,24 +20,25 @@ h1 {
     font-style: normal;
     font-size: 1000%;
     line-height: 80%;
-    padding: 20px;
+    margin: auto;
+    width: 60%;
+    padding-left: 100px;
+    position: relative;
+    
 }
-h2 {
+h3 {
     color: rgb(97, 75, 56);
     text-align: left;
     font-family: clarendon-text-pro,serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 400%;
+    font-size: 200%;
+    padding-right: 50px;
+    position: relative;
+    left: 850px;
+    top:-130px;
 }
-h3 {
-    color: rgb(97, 75, 56);
-    text-align: right;
-    font-family: clarendon-text-pro,serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 400%;
-}
+    
 h4 {
     color: rgb(97, 75, 56);
     font-family: clarendon-text-pro,serif;
@@ -37,23 +46,88 @@ h4 {
     font-style: normal;
     font-size: 300%;
 }
+#hen {
+    color: rgb(132, 163, 100);
+    font-family: clarendon-text-pro,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 300%;
+    text-align: right;
+    margin-bottom: 0%;
+    margin-right: 3%;
+
+}
 #para1 {
     color: rgb(97, 75, 56);
-    text-align: right;
+    text-align: left;
     font-family: clarendon-text-pro,serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 200%;
-}
+    font-size: 100%;
+    padding-right: 50px;
+    padding-top: 20px;
+    position: relative;
+    width: 550px;
+    left: 790px;
+    left: 850px;
+    top:-170px;}
+    
 #para2 {
     color: rgb(189, 116, 177);
     text-align: center;
     font-family: clarendon-text-pro,serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 800%;
+    font-size: 700%;
+    margin: 0%;
 }
-#circle-03.png {
+
+#para3 {
+    color: rgb(97, 75, 56);
+    text-align: right;
+    font-family: clarendon-text-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
     float: right;
-    
+    line-height: 250%;
+    margin-top: 0%;
+    margin-right: 3%;
+}
+
+#dream {
+    color: rgb(235, 232, 90);
+    text-align: right;
+    float: right;
+    font-size: 300%;
+    margin-right: 3%;
+    z-index: 1;
+    position: relative;
+}
+#alphabet {
+    color: rgb(97, 75, 56);
+    text-align: justify;
+    font-family: clarendon-text-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:600%;
+    float: left;
+    line-height: 100%;
+    margin-top: -28%;
+    margin-left: 3%;
+    width: 200%;
+
+}
+
+ div.circle {
+    float: left;
+    position: relative;
+    top: -800px;
+    right: -45%;
+}
+div.slide {
+   width: 30%;
+   border-radius: -10pt;
+   margin: -10pt;
+   padding: -10pt;
 }
