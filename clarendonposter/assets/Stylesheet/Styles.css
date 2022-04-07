@@ -45,6 +45,8 @@ h4 {
     font-weight: 700;
     font-style: normal;
     font-size: 300%;
+    position: absolute;
+    margin-top: 50%;
 }
 #hen {
     color: rgb(132, 163, 100);
@@ -53,8 +55,9 @@ h4 {
     font-style: normal;
     font-size: 300%;
     text-align: right;
-    margin-bottom: 0%;
-    margin-right: 3%;
+    margin-top: -5%;
+    float: right;
+    position: relative;
 
 }
 #para1 {
@@ -91,8 +94,8 @@ h4 {
     font-size: 150%;
     float: right;
     line-height: 250%;
-    margin-top: 0%;
-    margin-right: 3%;
+    margin-right: -26%;
+    position: relative;
 }
 
 #dream {
@@ -101,9 +104,25 @@ h4 {
     float: right;
     font-size: 300%;
     margin-right: 3%;
+    margin-top: -40px;
     z-index: 1;
     position: relative;
+    
 }
+#fun {
+    color: rgb(97, 75, 56);
+    text-align: left;
+    font-family: clarendon-text-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 170%;
+    float: right;
+    margin-top: -66%;
+    letter-spacing: 10px;
+    transform: rotate(30deg);
+    margin-right: 11%;
+}
+
 #alphabet {
     color: rgb(97, 75, 56);
     text-align: justify;
@@ -113,21 +132,50 @@ h4 {
     font-size:600%;
     float: left;
     line-height: 100%;
-    margin-top: -28%;
+    margin-top: -30%;
     margin-left: 3%;
-    width: 200%;
+    width: 200%;}
 
-}
+#pups {
+    color: rgb(235, 232, 90);
+    text-align: left;
+    float:left;
+    font-size: 400%;
+    margin-left: 5%;
+    top: -45px;
+    z-index: 1;
+    position: relative;}
 
- div.circle {
+#four {
+    color: rgb(97, 75, 56);
+    font-family: clarendon-text-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:4000%;
+    float: right;
+    margin-right: -70%;
+    margin-left: 60%;
+    margin-top: -133%;
+    width: 100%;}
+
+div.circle {
     float: left;
     position: relative;
-    top: -800px;
+    top: -790px;
     right: -45%;
 }
 div.slide {
-   width: 30%;
-   border-radius: -10pt;
+   width: 40%;
    margin: -10pt;
-   padding: -10pt;
+   float: left;
+   margin-top: -1770px;
+   position: relative;
+   margin-left: -40px;
 }
+div.frame {
+    float: left;
+    left: -150px;
+    top: -1000px;
+    position: relative;
+}
+
