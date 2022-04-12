@@ -159,10 +159,10 @@ h4 {
     font-style: normal;
     font-size: 170%;
     float: right;
-    margin-top: -66%;
+    margin-top: -67%;
     letter-spacing: 10px;
-    transform: rotate(33deg);
-    margin-right: 11%;
+    transform: rotate(25deg);
+    margin-right: 1%;
 }
 
 #alphabet {
@@ -186,7 +186,8 @@ h4 {
     margin-left: 5%;
     top: -45px;
     z-index: 1;
-    position: relative;}
+    position: relative;
+    text-indent: 10px;}
 
 #four {
     color: rgb(97, 75, 56);
@@ -220,4 +221,74 @@ div.frame {
     top: -1000px;
     position: relative;
 }
+#dolls {
+    color: rgb(97, 75, 56);
+    text-align: center;
+    font-family: clarendon-text-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:200%;
+    position: relative;
+    top: -1200px;
+    line-height: 33px;
+    margin-right: 5%;   
+    float: right; 
+}
+div.bear {
+    margin: 0%;
+    bottom: 1370px;
+    float: left;
+    position: relative;
+}
+#clarendon {
+    color: rgb(97, 75, 56);
+    font-family: clarendon-text-pro,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1300%;
+    line-height: 80%;
+    margin: auto;
+    position: relative;
+    left: 100px;
+    top: -1400px;
+    letter-spacing: -4px;
+}
+#clarendon2 {
+    color: rgb(189, 116, 177);
+    font-family: clarendon-text-pro,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1300%;
+    line-height: 80%;
+    margin: auto;
+    position: relative;
+    left: 50px;
+    top: -1200px;
+    letter-spacing: 10px;
+}
+#clarendon3 {
+    color: rgb(132, 163, 100);
+    font-family: clarendon-text-pro,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1300%;
+    line-height: 80%;
+    margin: auto;
+    position: relative;
+    left: 13px;
+    top: -1000px;
+    letter-spacing: 20px;
+}
+    
+#theend {
+        color: rgb(232, 179, 74);
+        font-family: clarendon-text-pro,serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1600%;
+        line-height: 100%;
+        margin: auto;
+        position: relative;
+        left: 400px;
+        top: -600px;}
 
